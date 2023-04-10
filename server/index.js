@@ -4,8 +4,6 @@ import cors from 'cors'
 import connectDB from './mongodb/connect.js'
 import userRouter from './routes/user.routes.js'
 import companyRouter from './routes/company.routes.js'
-//import { fileURLToPath } from 'url';
-import path from 'path';
 
 // const __filename = fileURLToPath(import.meta.url);
 // const __dirname = path.dirname(__filename);
@@ -34,7 +32,4 @@ const startServer = async () => {
     }
 }
 
-app.get('*', (req,res)=>{
-    res.sendFile(path.join(__dirname, '../client/build/index.html'))
-})
 startServer()
