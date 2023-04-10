@@ -21,7 +21,6 @@
     "react-apexcharts": "^1.4.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.0",
-    "proxy": "http://localhost:8080",
     "web-vitals": "^1.1.1"
   },
   "devDependencies": {
