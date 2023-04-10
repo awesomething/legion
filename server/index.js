@@ -16,7 +16,7 @@ app.get('/', (req,res,)=> {
     res.send({ message: 'Hello Devs!'})
 })
 
-const __dirname = path.resolve();
+
 app.use(cors())
 app.use(express.json({ limit: '50mb'}))
 app.use('/api/v1/users', userRouter)
