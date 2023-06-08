@@ -128,7 +128,7 @@ function App() {
       <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
       <RefineSnackbarProvider>
         <Refine
-          dataProvider={dataProvider("https://legion-a7eu.onrender.com")}//https://api.fake-rest.refine.dev
+          dataProvider={dataProvider("https://legion-a7eu.onrender.com/api/v1")}//https://api.fake-rest.refine.dev
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
           catchAll={<ErrorComponent />}
@@ -143,7 +143,7 @@ function App() {
               icon: <VillaOutlined/>
             },
             {
-              name: "clinicians",
+              name: "recruiters",
               list: Agents,
               show: AgentProfile,
               icon: <PeopleAltOutlined/>

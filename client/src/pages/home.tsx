@@ -36,13 +36,13 @@ const Home = () => {
           colors={["#275be8", "#c4e8ef"]}
         />
         <PieChart
-          title="One Time Gigs"
+          title="Part Time Gigs"
           value={50}
           series={[25, 25]}
           colors={["#475ae8", "#e4b8ef"]}
         />
         <PieChart
-          title="Total Candidates"
+          title="Interviews Held"
           value={104}
           series={[74, 30]}
           colors={["#275be8", "#c4e8ef"]}

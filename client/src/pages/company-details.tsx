@@ -85,7 +85,7 @@ const CompanyDetails = () => {
                   </Box>
                   {/* PRICE */}
                   <Box>
-                  <Typography fontSize={16} fontWeight={600} mt="10px" color="#11142D">Price</Typography>
+                  <Typography fontSize={16} fontWeight={600} mt="10px" color="#11142D">Monthly Budget</Typography>
                   <Stack direction="row" alignItems="flex-end" gap={1}>
                     <Typography fontSize={25} fontWeight={700} color="#475BE8">${companyDetails.price}</Typography>
                     <Typography fontSize={14} color="#808191" mb={0.5}>per month</Typography>
@@ -171,7 +171,7 @@ const CompanyDetails = () => {
 
           <Stack>
             <img
-              src="https://serpmedia.org/scigen/images/googlemaps-nyc-standard.png?crc=3787557525"
+              src="/images/qr.png"
               width="100%"
               height={306}
               style={{ borderRadius: 10, objectFit: 'cover' }}
@@ -179,9 +179,9 @@ const CompanyDetails = () => {
           </Stack>
 
           <Box>
-            <a href='https://calendly.com/pairsession/jobchallenge'>
+            <a href='https://teams.live.com/l/invite/FAArK28j93qzU3rQQI'>
             <CustomButton
-              title="Book Now"
+              title="Join tech teams"
               backgroundColor="#475BE8"
               color="#FCFCFC"
               fullWidth

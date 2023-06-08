@@ -58,7 +58,7 @@ const AllCompanies = () => {
         fontWeight={700}
         color='#11142d'>
           {!allCompanies.length 
-          ? 'There are no hospitals' 
+          ? 'There are no companies' 
           : 'All Companies'
         }
         </Typography>
@@ -108,10 +108,11 @@ const AllCompanies = () => {
             }}
           >
             <MenuItem value=''>All</MenuItem>
-            {['Landing Page', 'Bug Fixes', '3+ Page Website',
+            {/* ['Landing Page', 'Bug Fixes', '3+ Page Website',
             'Frontend Web App', 'Backend Web App', 'Fullstack Web App', 
             'Mobile Application', 'Shortterm Contracts',
-            'Yearly Contracts', 'Longterm Contracts', 'Other Gigs'].map((type) =>(
+            'Yearly Contracts', 'Longterm Contracts', 'Other Gigs'] */}
+            {['Shortterm Contracts','Yearly Contracts', 'Longterm Contracts'].map((type) =>(
               <MenuItem key={type} value={type.toLowerCase()}>{type}</MenuItem>
             ))}
           </Select>

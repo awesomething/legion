@@ -12,7 +12,7 @@ const Agents = () => {
   if(isError) return <div>error...</div>
   return (
     <Box>
-    <Typography fontSize={25} fontWeight={700} color="#11142d">Clinicians List</Typography>
+    <Typography fontSize={25} fontWeight={700} color="#11142d">Recruiters List</Typography>
 
     <Box
       mt="20px"

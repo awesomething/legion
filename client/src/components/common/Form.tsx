@@ -76,24 +76,24 @@ const Form = ({type, register, handleImageChange, handleSubmit,
           defaultValue='Landing Page'
           {...register('gigType', {required: true})}
           >
-            <MenuItem value='landing page'>Landing Page</MenuItem>
+            {/* <MenuItem value='landing page'>Landing Page</MenuItem>
             <MenuItem value='bug fixes'>Bug Fixes</MenuItem>
             <MenuItem value='multipage website'>3+ Page Website</MenuItem>
             <MenuItem value='frontend web app'>Frontend Web App</MenuItem>
             <MenuItem value='backend web app'>Backend Web App</MenuItem>
             <MenuItem value='fullstack web app'>Fullstack Web App</MenuItem>
-            <MenuItem value='mobile application'>Mobile Application</MenuItem>
+            <MenuItem value='mobile application'>Mobile Application</MenuItem> */}
             <MenuItem value='shortterm contracts'>Shortterm Contracts</MenuItem>
             <MenuItem value='yearly contracts'>Yearly Contracts</MenuItem>
             <MenuItem value='longterm contracts'>Longterm Contracts</MenuItem>
-            <MenuItem value='other gigs'>Other Gigs</MenuItem>
+            {/* <MenuItem value='other gigs'>Other Gigs</MenuItem> */}
           </Select>
           </FormControl>
           <FormControl>
           <FormHelperText sx={{
             fontSize:16, fontWeight: 500,
             color:'#11142d', margin:'10px 0'
-          }}>Enter Gig Price</FormHelperText>
+          }}>Enter Monthly Budget</FormHelperText>
           <TextField
           fullWidth
           required
@@ -123,12 +123,12 @@ const Form = ({type, register, handleImageChange, handleSubmit,
         justifyContent='center' mb={2}>
           <Stack direction='row' gap={2}>
             <Typography fontSize={16} my='10px'color="#11142d" 
-            fontWeight={500}>Gig File</Typography>
+            fontWeight={500}>Company Image</Typography>
             <Button component='label' sx={{
               width:'fit-content', color:'#2ed480',
               textTransform: 'capitalize', fontSize: '16'
             }}>
-              Upload *link to ppt| slideshow| image| gif
+              Upload *link to image, logo, building photo, etc
               <input
               hidden
               accept='application/vnd.ms-powerpoint, presentationml.slideshow, image/gif, image/*'
